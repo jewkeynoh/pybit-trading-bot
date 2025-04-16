@@ -1,0 +1,7 @@
+# LIVE TRADING KEYS
+# BYBIT_API_KEY = 'ZkbQelayDWOM3d1QzO'
+# BYBIT_API_SECRET = 'ydgki8r2fUBj9rhF9bmuTETKhXt75dvJQjs4'
+
+BYBIT_API_KEY = 'nOBhsfTUFtdmA78x3A'
+BYBIT_API_SECRET = 'TwRNMd2i9TuBNHDShrxz5vNqVhFZGkN64Cqv'
+BYBIT_TESTNET = True  # Set to False for live trading

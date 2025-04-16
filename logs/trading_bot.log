@@ -1,0 +1,84 @@
+2025-04-17 00:42:42,971 - INFO - Starting Bybit Futures Grid Bot
+2025-04-17 00:42:43,135 - INFO - API keys validated successfully
+2025-04-17 00:42:43,249 - INFO - Raw balance response: {'retCode': 0, 'retMsg': 'OK', 'result': {'list': [{'totalEquity': '10000.32', 'accountIMRate': '0', 'totalMarginBalance': '8400.2688', 'totalInitialMargin': '0', 'accountType': 'UNIFIED', 'totalAvailableBalance': '8400.2688', 'accountMMRate': '0', 'totalPerpUPL': '0', 'totalWalletBalance': '8400.2688', 'accountLTV': '0', 'totalMaintenanceMargin': '0', 'coin': [{'availableToBorrow': '', 'bonus': '0', 'accruedInterest': '0', 'availableToWithdraw': '', 'totalOrderIM': '0', 'equity': '10000', 'totalPositionMM': '0', 'usdValue': '10000.32', 'unrealisedPnl': '0', 'collateralSwitch': True, 'spotHedgingQty': '0', 'borrowAmount': '0.000000000000000000', 'totalPositionIM': '0', 'walletBalance': '10000', 'cumRealisedPnl': '0', 'locked': '0', 'marginCollateral': True, 'coin': 'USDT'}]}]}, 'retExtInfo': {}, 'time': 1744821766199}
+2025-04-17 00:42:43,249 - INFO - Available USDT balance: 8400.2688
+2025-04-17 00:42:43,384 - INFO - Current leverage for BTCUSDT: 5x
+2025-04-17 00:42:43,611 - WARNING - Failed to set leverage: Server error (ErrCode: 10016) (ErrTime: 16:42:43).
+Request \u2192 POST https://api-testnet.bybit.com/v5/account/set-margin-mode: {"category": "linear", "symbol": "BTCUSDT", "marginMode": "ISOLATED"}.. Using existing leverage: 5x
+2025-04-17 00:42:45,375 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 00:42:46,037 - INFO - Placed Sell order at 78726.67 for BTCUSDT
+2025-04-17 00:42:46,190 - INFO - Placed Sell order at 79118.35 for BTCUSDT
+2025-04-17 00:42:46,284 - INFO - Placed Sell order at 79510.02 for BTCUSDT
+2025-04-17 00:42:46,284 - INFO - Cycle complete. Direction: short, Price: 78335.0
+2025-04-17 00:47:48,125 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 00:47:48,743 - INFO - Cancelled order 3af588d1-1756-442e-839b-ef819869e58e
+2025-04-17 00:47:48,853 - INFO - Cancelled order bfcd5b46-8961-469e-b4da-754118bcc5ba
+2025-04-17 00:47:48,963 - INFO - Cancelled order b9f13994-7577-4d4f-8c8a-10d01b4f6383
+2025-04-17 00:47:49,407 - INFO - Placed Sell order at 78688.89 for BTCUSDT
+2025-04-17 00:47:49,630 - INFO - Placed Sell order at 79080.37 for BTCUSDT
+2025-04-17 00:47:49,727 - INFO - Placed Sell order at 79471.86 for BTCUSDT
+2025-04-17 00:47:49,727 - INFO - Cycle complete. Direction: short, Price: 78297.4
+2025-04-17 00:52:51,705 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 00:52:52,066 - INFO - Cancelled order 5be8ccc2-9bcc-4edf-bf33-7e20eee7b8a7
+2025-04-17 00:52:52,170 - INFO - Cancelled order 46a88a77-0c30-422e-b272-45ec95e15f7e
+2025-04-17 00:52:52,271 - INFO - Cancelled order 945473a2-a38a-479f-bbf4-d5cb54081dc1
+2025-04-17 00:52:52,544 - INFO - Placed Buy order at 77027.0 for BTCUSDT
+2025-04-17 00:52:52,700 - INFO - Placed Buy order at 77418.0 for BTCUSDT
+2025-04-17 00:52:52,856 - INFO - Placed Buy order at 77809.0 for BTCUSDT
+2025-04-17 00:52:53,065 - INFO - Cycle complete. Direction: long, Price: 78200.0
+2025-04-17 00:57:54,751 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 00:57:55,191 - INFO - Cancelled order 6479a7e7-ef16-4381-8b62-c909ab456acd
+2025-04-17 00:57:55,303 - INFO - Cancelled order 4dbc1db8-d0f6-4dfe-a1b4-8d796bdb224f
+2025-04-17 00:57:55,411 - INFO - Cancelled order 9cd82a10-578c-4709-9bc4-a74c94968c23
+2025-04-17 00:57:55,697 - INFO - Placed Buy order at 77027.0 for BTCUSDT
+2025-04-17 00:57:55,856 - INFO - Placed Buy order at 77418.0 for BTCUSDT
+2025-04-17 00:57:56,019 - INFO - Placed Buy order at 77809.0 for BTCUSDT
+2025-04-17 00:57:56,225 - INFO - Cycle complete. Direction: long, Price: 78200.0
+2025-04-17 01:02:58,106 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 01:02:58,596 - INFO - Cancelled order fec1b792-c5fc-49ab-af87-73da55aab85a
+2025-04-17 01:02:58,704 - INFO - Cancelled order 9bf4d0c5-4a6d-470e-93a8-967b7d6ab58a
+2025-04-17 01:02:58,814 - INFO - Cancelled order dd5ece25-28e2-4067-87c3-c67762569027
+2025-04-17 01:02:59,055 - INFO - Placed Buy order at 77322.5 for BTCUSDT
+2025-04-17 01:02:59,213 - INFO - Placed Buy order at 77715.0 for BTCUSDT
+2025-04-17 01:02:59,378 - INFO - Placed Buy order at 78107.5 for BTCUSDT
+2025-04-17 01:02:59,526 - INFO - Cycle complete. Direction: long, Price: 78500.0
+2025-04-17 01:08:01,022 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 01:08:01,443 - INFO - Cancelled order d263cb47-dd71-4b0d-bfa9-cab1cff5b544
+2025-04-17 01:08:01,565 - ERROR - Error cancelling orders: order not exists or too late to cancel (ErrCode: 110001) (ErrTime: 17:08:01).
+Request \u2192 POST https://api-testnet.bybit.com/v5/order/cancel: {"category": "linear", "symbol": "BTCUSDT", "orderId": "3bef8441-cf03-4b2f-b9d5-dd2440d2af51"}.
+2025-04-17 01:08:01,914 - INFO - Placed Buy order at 77076.25 for BTCUSDT
+2025-04-17 01:08:02,071 - INFO - Placed Buy order at 77467.5 for BTCUSDT
+2025-04-17 01:08:02,170 - INFO - Placed Buy order at 77858.75 for BTCUSDT
+2025-04-17 01:08:02,375 - INFO - Cycle complete. Direction: long, Price: 78250.0
+2025-04-17 01:13:03,863 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 01:13:04,302 - INFO - Cancelled order 79855847-75e5-4d52-ae1c-aaff961fde7f
+2025-04-17 01:13:04,412 - ERROR - Error cancelling orders: order not exists or too late to cancel (ErrCode: 110001) (ErrTime: 17:13:04).
+Request \u2192 POST https://api-testnet.bybit.com/v5/order/cancel: {"category": "linear", "symbol": "BTCUSDT", "orderId": "6bb51cf7-3166-4093-8aeb-04df4ed10e6d"}.
+2025-04-17 01:13:04,576 - INFO - Placed Buy order at 76337.5 for BTCUSDT
+2025-04-17 01:13:04,728 - INFO - Placed Buy order at 76725.0 for BTCUSDT
+2025-04-17 01:13:04,820 - INFO - Placed Buy order at 77112.5 for BTCUSDT
+2025-04-17 01:13:05,072 - INFO - Cycle complete. Direction: long, Price: 77500.0
+2025-04-17 01:18:06,950 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 01:18:07,479 - INFO - Cancelled order bdad23f0-0a52-4f2b-981e-141b8bb13a01
+2025-04-17 01:18:07,593 - ERROR - Error cancelling orders: order not exists or too late to cancel (ErrCode: 110001) (ErrTime: 17:18:07).
+Request \u2192 POST https://api-testnet.bybit.com/v5/order/cancel: {"category": "linear", "symbol": "BTCUSDT", "orderId": "4d8b7748-5672-4cff-b3d9-baedab340c03"}.
+2025-04-17 01:18:07,828 - INFO - Placed Buy order at 76583.75 for BTCUSDT
+2025-04-17 01:18:07,991 - INFO - Placed Buy order at 76972.5 for BTCUSDT
+2025-04-17 01:18:08,093 - INFO - Placed Buy order at 77361.25 for BTCUSDT
+2025-04-17 01:18:08,305 - INFO - Cycle complete. Direction: long, Price: 77750.0
+2025-04-17 01:23:09,727 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 01:23:10,189 - INFO - Cancelled order fc825885-a8ee-4e09-bc92-211fcc0c4834
+2025-04-17 01:23:10,304 - ERROR - Error cancelling orders: order not exists or too late to cancel (ErrCode: 110001) (ErrTime: 17:23:10).
+Request \u2192 POST https://api-testnet.bybit.com/v5/order/cancel: {"category": "linear", "symbol": "BTCUSDT", "orderId": "ee071bfb-ca3f-46e0-97f6-cfedd3aaba32"}.
+2025-04-17 01:23:10,585 - INFO - Placed Buy order at 76633.0 for BTCUSDT
+2025-04-17 01:23:10,736 - INFO - Placed Buy order at 77022.0 for BTCUSDT
+2025-04-17 01:23:10,892 - INFO - Placed Buy order at 77411.0 for BTCUSDT
+2025-04-17 01:23:11,146 - INFO - Cycle complete. Direction: long, Price: 77800.0
+2025-04-17 01:28:12,790 - INFO - Fetched 100 OHLCV candles for BTCUSDT
+2025-04-17 01:28:13,215 - INFO - Cancelled order 3182f06e-94f8-47ae-b858-1a62248f593d
+2025-04-17 01:28:13,333 - ERROR - Error cancelling orders: order not exists or too late to cancel (ErrCode: 110001) (ErrTime: 17:28:13).
+Request \u2192 POST https://api-testnet.bybit.com/v5/order/cancel: {"category": "linear", "symbol": "BTCUSDT", "orderId": "0ac1746d-6dae-43f2-a9cb-ec8155007dcc"}.
+2025-04-17 01:28:13,651 - INFO - Placed Buy order at 76583.75 for BTCUSDT
+2025-04-17 01:28:13,863 - INFO - Placed Buy order at 76972.5 for BTCUSDT
+2025-04-17 01:28:13,956 - INFO - Placed Buy order at 77361.25 for BTCUSDT
+2025-04-17 01:28:14,106 - INFO - Cycle complete. Direction: long, Price: 77750.0
