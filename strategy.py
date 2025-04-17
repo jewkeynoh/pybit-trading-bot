@@ -7,7 +7,7 @@ import logging
 SYMBOL = 'BTCUSDT'
 GRID_SIZE = 0.005  # 0.5% price interval
 NUM_GRIDS = 3  # Reduced number of grid levels
-POSITION_SIZE = 0.001  # Minimum order size for BTCUSDT
+POSITION_SIZE = 0.001  # Minimum order size for BTCUSDT (0.00015 for $12)
 RSI_PERIOD = 14
 EMA_FAST = 12
 EMA_SLOW = 26
